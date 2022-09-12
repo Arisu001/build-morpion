@@ -1,0 +1,20 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "type": "player",
+        "type_specific": {
+            "type": "player",
+            "gamemode": "unset"
+        },
+        "equipment": {
+            "mainhand": {
+                "items": [
+                    "armor_stand"
+                ],
+                "count": 1,
+                "nbt": "{3T: 1b}"
+            }
+        }
+    }
+}

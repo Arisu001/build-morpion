@@ -1,0 +1,25 @@
+{
+    "function": "set_nbt",
+    "tag": "{3T: 1b, Tags: [\"mid_trg\"], display: {Name: '[{\"text\": \"Mor\", \"color\": \"red\", \"italic\": false}, {\"text\": \"pion\", \"color\": \"blue\"}]'}, Unbreakable: 1b, HideFlags: 7b}",
+    "conditions": [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "player",
+                "type_specific": {
+                    "type": "player",
+                    "gamemode": "unset"
+                },
+                "equipment": {
+                    "mainhand": {
+                        "items": [
+                            "armor_stand"
+                        ],
+                        "count": 1
+                    }
+                }
+            }
+        }
+    ]
+}

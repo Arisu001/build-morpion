@@ -1,0 +1,30 @@
+{
+    "replace": true,
+    "values": [
+        "white_concrete",
+        "yellow_concrete",
+        "blue_concrete",
+        "brown_concrete",
+        "red_concrete",
+        "black_concrete",
+        "smooth_quartz",
+        "smooth_quartz_slab",
+        "white_stained_glass",
+        "yellow_stained_glass",
+        "blue_stained_glass",
+        "brown_stained_glass",
+        "red_stained_glass",
+        "black_stained_glass",
+        "chiseled_quartz_block",
+        "quartz_block",
+        "quartz_pillar",
+        "smooth_quartz",
+        "smooth_quartz_slab",
+        "smooth_quartz_stairs",
+        "stripped_oak_log",
+        "birch_leaves",
+        "end_rod",
+        "oak_trapdoor",
+        "tinted_glass"
+    ]
+}

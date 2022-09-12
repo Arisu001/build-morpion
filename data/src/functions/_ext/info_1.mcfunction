@@ -1,0 +1,11 @@
+scoreboard players add @s map.value 1
+tellraw @s {"text": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"}
+
+tellraw @s [{"text": "═══════════[ ", "color": "#91ffff", "bold": true}, {"text": "INFORMATION", "color": "blue"}, {"text": " ]═══════════"}]
+tellraw @s ""
+tellraw @s [{"text": "- ", "color": "yellow"}, {"text": "/trigger help", "clickEvent": {"action": "suggest_command", "value": "/trigger help"}, "hoverEvent": {"action": "show_text", "value": "§aClique pour avoir un aperçu de cette commande"}, "color": "light_purple"}, {"text": ": "}, {"text": "Pour obtenir de l'aide", "color": "yellow"}]
+tellraw @s [{"text": "- ", "color": "yellow"}, {"text": "/trigger remove", "clickEvent": {"action": "suggest_command", "value": "/trigger remove"}, "hoverEvent": {"action": "show_text", "value": "§cClique pour avoir un aperçu de cette commande"}, "color": "light_purple"}, {"text": ": "}, {"text": "Supprime le dernier morpion généré", "color": "yellow"}]
+tellraw @s [{"text": "- ", "color": "yellow"}, {"text": "/trigger undo", "clickEvent": {"action": "suggest_command", "value": "/trigger undo"}, "hoverEvent": {"action": "show_text", "value": "§6Clique pour avoir un aperçu de cette commande"}, "color": "light_purple"}, {"text": ": "}, {"text": "Revenir en arrière sur le morpion actuel", "color": "yellow"}]
+tellraw @s ""
+tellraw @s ["                                                      ", {"text": "Page", "color": "dark_purple"}, {"text": ": ", "color": "yellow"}, {"text": "◀ ", "clickEvent": {"action": "run_command", "value": "/function src:info_"}, "hoverEvent": {"action": "show_text", "value": "§eSe rendre sur la première page"}, "color": "green", "bold": true}, {"text": "2", "color": "dark_aqua"}, {"text": "/", "color": "white"}, {"text": "3 ", "color": "dark_aqua"}, {"text": "▶", "clickEvent": {"action": "run_command", "value": "/function src:_ext/info_2"}, "hoverEvent": {"action": "show_text", "value": "§eSe rendre sur la dernière page"}, "color": "green", "bold": true}]
+tellraw @s {"text": "═══════════════════════════════", "color": "#91ffff", "bold": true}

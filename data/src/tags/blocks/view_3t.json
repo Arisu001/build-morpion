@@ -1,0 +1,13 @@
+{
+    "replace": true,
+    "values": [
+        "white_stained_glass",
+        "yellow_stained_glass",
+        "blue_stained_glass",
+        "brown_stained_glass",
+        "red_stained_glass",
+        "black_stained_glass",
+        "smooth_quartz",
+        "smooth_quartz_slab"
+    ]
+}

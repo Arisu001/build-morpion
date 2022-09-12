@@ -1,0 +1,13 @@
+{
+    "replace": true,
+    "values": [
+        "white_concrete",
+        "yellow_concrete",
+        "blue_concrete",
+        "brown_concrete",
+        "red_concrete",
+        "black_concrete",
+        "smooth_quartz",
+        "smooth_quartz_slab"
+    ]
+}
