@@ -10,5 +10,5 @@
 > Created by: Arisu001
 
 
-                Copyright — Alls right reserved
+                    Copyright — All right reserved
 #══════════════════════════════════════════════════#
