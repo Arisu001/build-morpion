@@ -6,4 +6,4 @@ scoreboard objectives remove remove
 scoreboard objectives remove help
 scoreboard objectives remove undo
 
-datapack disable "file/Morpion"
+datapack disable "file/build-morpion"
